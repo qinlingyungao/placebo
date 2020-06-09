@@ -2,11 +2,11 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://qinlingyungao.github.io
+url: https://qinlingyungao.github.io/placebo/
 date_format: "ordinal"
-title: 秦岭云高
-subtitle: "我的存稿箱"
-description: "写作"
+title: Placebo
+subtitle: "possibilities"
+description: "possibilities"
 keywords: 
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -22,7 +22,7 @@ cdn:
 components:
     # 分享
     share:
-        enabled: true
+        enabled: false
     # 不蒜子访问统计
     busuanzi:
         enabled: true
@@ -41,7 +41,7 @@ word_count:
 author: 秦岭云高
 organization: 
 organization_url: 
-github_username: qinlingyungao
+github_username: 
 location: Tokyo, Japan
 email: qly0131@outlook.com
 
@@ -57,9 +57,9 @@ navs:
     href: /categories/
     label: 分类
 
-#   -
-#     href: /archives/
-#     label: 归档
+  -
+     href: /archives/
+     label: 归档
 
 #   -
 #     href: /open-source/
